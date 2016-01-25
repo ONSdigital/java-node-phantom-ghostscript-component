@@ -10,5 +10,5 @@ RUN apt-get install -fyqq \
 # Test if ghostscript works
 
 RUN gs -v
-CMD echo "phantomjs binary is located at /usr/local/bin/gs" \
+CMD echo "ghostscript binary is located at /usr/local/bin/gs" \
      && echo "just run 'gs' (version `gs -v`)"
